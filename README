@@ -1,0 +1,17 @@
+wdump is a utility to dump word content into text or json.
+
+
+Help
+
+wdump: dumps contents of word document. 
+Usage: wdump <file> [<option1> <option2> ...].
+Options:
+-u  : Transform returns to unix format.
+-c  : Strip out carriage returns.
+-j  : Output json representation of text, font, font-size, bold, and italic.
+
+Using it without options will return a text representation of the text.
+
+Dependencies:
+It will only run on windows.
+It needs to have Word installed.
