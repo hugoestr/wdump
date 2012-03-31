@@ -18,8 +18,8 @@ namespace wdump.Library
         public string ToJson()
         {
             var result = "{ ";
-            var format = "text : \"{0}\", font : \"{1}\", font_size : \"{2}\",";
-            format += " bold : {3}, italic : {4}";
+            var format = "\"text\" : \"{0}\", \"font\" : \"{1}\", \"font_size\" : \"{2}\",";
+            format += " \"bold\" : {3}, \"italic\" : {4}";
             result += String.Format(format, escapeQuotes(Text), Font, FontSize, 
                                     Bold.ToString().ToLower(),
                                     Italic.ToString().ToLower()); 
